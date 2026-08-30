@@ -14,7 +14,7 @@ The model goes through the data and produces the following Confusion Matrix:
 
 ## 1. Accuracy
 Accuracy measures the percentage of total predictions that the model got exactly right (both positive and negative).
-$$\text{Accuracy} = \frac{\text{TP} + \text{TN}}{\text{Total}} = \frac{8 + 978}{1000} = \frac{986}{1000} = \mathbf{98.6\%}$$ 
+### $$\text{Accuracy} = \frac{\text{TP} + \text{TN}}{\text{Total}} = \frac{8 + 978}{1000} = \frac{986}{1000} = \mathbf{98.6\%}$$ 
 
 * The Catch: A 98.6% accuracy sounds incredible! However, notice that the model completely missed 2 out of the 10 cancer patients (a 20% failure rate for the sick people). If the model just guessed "Healthy" for everyone, it would still get 99% accuracy. This is why accuracy is highly deceptive for imbalanced data.
 
