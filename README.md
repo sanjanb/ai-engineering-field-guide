@@ -7,7 +7,7 @@
 * **Define Negative Constraints ("DO NOT" List):** Explicitly tell the AI what **not** to do. Include a dedicated `DO NOT` section in your rules file to eliminate common AI slop and anti-patterns.
 * **Maintain Persistent Guidelines:** Use standardized context files (`RULES.md`, `GUIDELINES.md`, or `CLAUDE.md`) to enforce coding standards, file structures, and naming conventions automatically across sessions.
 
-s* **Apply First-Principles Planning:** Break complex features down into small, modular sub-tasks before invoking code generation. Plan out the entire flow before writing line one.
+* **Apply First-Principles Planning:** Break complex features down into small, modular sub-tasks before invoking code generation. Plan out the entire flow before writing line one.
 * **Automate Self-Verification:** Provide the AI with tool access to run tests, linters, type checkers, or browser instances so it can verify its own code before marking a task complete.
 * **Integrate MCPs (Model Context Protocol):** Connect your agent directly to your dev environment using [MCP Servers](https://mcpmarket.com/server) (e.g., Next.js devtools, Chrome DevTools, database inspectors) to stream real-time operational context.
 
